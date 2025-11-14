@@ -1,13 +1,10 @@
 import React from "react";
 import { ABOUT_ME_DATA } from "../utils/data";
-import Profile_pic_image from '../assets/Profile_pic_image.jpeg'
+import Profile_pic_image from "../assets/Profile_pic_image.jpeg";
 
 const AboutMe = () => {
   return (
-    <section
-      id="about"
-      className="max-w-screen-xl mx-auto px-6 py-20 md:py-24"
-    >
+    <section id="about" className="max-w-screen-xl mx-auto px-6 py-20 md:py-24">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-primary text-center md:text-left mb-12">
         About Me
@@ -43,9 +40,7 @@ const AboutMe = () => {
           <h3 className="text-3xl font-bold text-white">
             {ABOUT_ME_DATA.stats.Experience}
           </h3>
-          <p className="text-slate-300 tracking-wide mt-2">
-            Experience
-          </p>
+          <p className="text-slate-300 tracking-wide mt-2">Experience</p>
         </div>
 
         {/* Projects Completed */}

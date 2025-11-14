@@ -14,17 +14,16 @@ const Hero = () => {
     location,
     Experience,
     email,
-    skills,          
+    skills,
   } = PROFILE_DATA;
 
-  const skillList = skills || []; 
+  const skillList = skills || [];
 
   return (
     <section
       id="hero"
       className="relative max-w-screen-xl mx-auto px-6 pt-24 pb-20 flex flex-col md:flex-row md:items-center gap-12"
     >
-
       {/* Left background effect */}
       <div className="pointer-events-none absolute inset-y-0 left-0 right-1/3 opacity-40">
         <div className="h-full w-full bg-[radial-gradient(circle_at_center,_rgba(37,99,235,0.35),transparent_60%)]" />
@@ -96,9 +95,7 @@ const Hero = () => {
             <div className="w-9 h-9 rounded-xl bg-emerald-500/10 flex items-center justify-center">
               <FaBriefcase className="text-emerald-400" />
             </div>
-            <p className="text-sm text-slate-100">
-              {Experience}+ Experience
-            </p>
+            <p className="text-sm text-slate-100">{Experience}</p>
           </div>
 
           {/* Skills from PROFILE_DATA.skills */}
@@ -119,19 +116,19 @@ const Hero = () => {
           <div className="flex items-center justify-between">
             <div className="flex gap-3">
               <a
-                href="https://github.com/27-Parth"
+                href="https://github.com/sumitjha54"
                 className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-slate-100 hover:bg-slate-800 transition"
               >
                 <FaGithub size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/parth-274l1"
+                href="https://www.linkedin.com/in/sumitjha50/"
                 className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-slate-100 hover:bg-slate-800 hover:text-sky-400 transition"
               >
                 <FaLinkedinIn size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/parth-274l1"
+                href="https://www.linkedin.com/in/sumitjha50/"
                 className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-slate-100 hover:bg-slate-800 hover:text-sky-400 transition"
               >
                 <RxTwitterLogo size={18} />

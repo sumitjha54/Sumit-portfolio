@@ -1,6 +1,6 @@
-import PROFILE_PIC from '../assets/PROFILE_PIC.jpeg'
-import profile from '../assets/profile.png'
-import webber from '../assets/webber.png'
+import PROFILE_PIC from "../assets/PROFILE_PIC.jpeg";
+import profile from "../assets/profile.png";
+import webber from "../assets/webber.png";
 import {
   FaJava,
   FaGithub,
@@ -23,41 +23,38 @@ import {
   SiMongodb,
   SiPostgresql,
   SiCss3,
-  SiIntellijidea,
-  SiJupyter,
   SiPostman,
+  SiNextdotjs,
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
 
 export const PROFILE_DATA = {
-  profilePicture: PROFILE_PIC, 
-  name: "Parth Kumar",
+  profilePicture: PROFILE_PIC,
+  name: "Sumit Jha",
   tagline:
-    "Computer Science student at MNNIT Allahabad with expertise in Java, Python, and full-stack development.",
-  jobTitle: "Computer Science Student / AI & Full-stack Developer Intern",
-  location: "Lucknow, UP, India",
-  Experience: "2 Months",
+    "B.Tech. Undergrad at MNNIT Allahabad with expertise in C++, Python, and full-stack development.",
+  jobTitle: "Full-stack Developer ",
+  location: "Bangalore, Karnataka, India",
+  Experience: "Fresher",
   skills: [
-    "Java",
-    "Python",
     "C/C++",
-    "SQL",
     "JavaScript",
     "HTML",
     "React.js",
     "Node.js",
     "Express.js",
+    "Next.js",
     "MongoDB",
     "MySQL",
-    "Docker",
-    "AWS",
+    "PostgreSQL",
     "RESTful APIs",
+    "Git",
   ],
-  email: "parthk2704@gmail.com",
-  phone: "+91 8532036865",
-  website: "https://github.com/27-Parth",
-  linkedin: "https://linkedin.com/in/parth-274l1",
+  email: "sumitjha.2266@gmail.com",
+  phone: "+91 9305064289",
+  website: "https://github.com/sumitjha54",
+  linkedin: "https://www.linkedin.com/in/sumitjha50/",
 };
 
 export const SKILLS = [
@@ -126,15 +123,6 @@ export const SKILLS = [
   },
   {
     id: "08",
-    icon: FaJava,
-    title: "Java",
-    level: 75,
-    category: "Tools",
-    comment:
-      "Utilized Java extensively for core programming and AI development in network projects.",
-  },
-  {
-    id: "09",
     icon: FaGithub,
     title: "GitHub",
     level: 92,
@@ -143,7 +131,7 @@ export const SKILLS = [
       "Experienced in using GitHub for version control, collaboration, and project management with clean branching workflows.",
   },
   {
-    id: "10",
+    id: "09",
     icon: FaGit,
     title: "Git",
     level: 70,
@@ -152,7 +140,7 @@ export const SKILLS = [
       "Used Git for version control and collaborative software development across multiple projects.",
   },
   {
-    id: "11",
+    id: "10",
     icon: SiPostman, // ⬅️ yahan change
     title: "Postman",
     level: 65,
@@ -160,26 +148,9 @@ export const SKILLS = [
     comment:
       "Utilized Postman for API design, testing, and integration in backend and network projects.",
   },
+
   {
-    id: "12",
-    icon: SiJupyter, // ⬅️ yahan change
-    title: "Jupyter",
-    level: 60,
-    category: "Tools",
-    comment:
-      "Leveraged Jupyter notebooks for prototyping AI models, data analysis, and experimentation.",
-  },
-  {
-    id: "13",
-    icon: FaNetworkWired,
-    title: "WebSockets",
-    level: 60,
-    category: "Tools",
-    comment:
-      "Implemented WebSocket-based real-time communication in web and network applications.",
-  },
-  {
-    id: "14",
+    id: "11",
     icon: VscVscode, // ⬅️ yahan change
     title: "VS Code",
     level: 70,
@@ -188,71 +159,22 @@ export const SKILLS = [
       "Developed and debugged full-stack applications using Visual Studio Code with a productive setup.",
   },
   {
-    id: "15",
-    icon: SiIntellijidea,
-    title: "IntelliJ IDEA",
-    level: 70,
-    category: "Tools",
-    comment:
-      "Used IntelliJ IDEA for Java development, refactoring, and debugging in AI and network projects.",
-  },
-  {
-    id: "16",
+    id: "12",
     icon: FaDatabase,
     title: "MySQL",
-    level: 65,
+    level: 80,
     category: "Database",
     comment:
       "Managed relational databases with MySQL for backend data storage, retrieval, and schema design.",
   },
   {
-    id: "17",
-    icon: FaLinux,
-    title: "Linux",
-    level: 75,
-    category: "Tools",
+    id: "13",
+    icon: SiNextdotjs,
+    title: "Next.js",
+    level: 80,
+    category: "Frontend",
     comment:
-      "Operated Linux environments for development, deployment, and testing of network and software solutions.",
-  },
-  {
-    id: "18",
-    icon: FaNetworkWired,
-    title: "Open5Gs",
-    level: 60,
-    category: "Tools",
-    comment:
-      "Worked with Open5Gs for 5G network implementation and testing in telecom-oriented projects.",
-  },
-  {
-    id: "19",
-    icon: FaServer,
-    title: "srsRAN",
-    level: 60,
-    category: "Tools",
-    comment:
-      "Applied srsRAN software suite for software-defined radio and 4G/5G network experimentation.",
-  },
-  {
-    id: "20",
-    icon: FaDocker,
-    title: "Docker",
-    level: 65,
-    category: "Tools",
-    comment:
-      "Utilized Docker containers to streamline deployment and scaling of applications and services.",
-  },
-];
-
-
-export const WORK_EXPERIENCE = [
-  {
-    id: "01",
-    company: "Indian Space Research Organization (ISRO)",
-    position: "Systems and Network Intern",
-    duration: "May 2025 – July 2025",
-    description:
-      "Researched and developed AI-driven solutions for 5G networks focusing on optimized data routing. Pioneered AI-driven 6G network architectures improving traffic management by 50%. " +
-      "Deployed unified SMF managing 16+ data tunnels, enhancing policy enforcement by over 30%.",
+      "Built server-side rendered and static web applications using Next.js for improved performance and SEO.",
   },
 ];
 
@@ -261,38 +183,47 @@ export const PROJECTS = [
     id: 1,
     title: "Pro-File",
     image: profile,
-    description: "A AI career sensai, which uses real world and current insights to help people find a job.",
-    tags: ["React", "Node.js", "Vite", "Gemini API", "ShadCN", "Prisma", "NeonDB"],
+    description:
+      "A AI career sensai, which uses real world and current insights to help people find a job.",
+    tags: [
+      "React",
+      "Node.js",
+      "Vite",
+      "Gemini API",
+      "ShadCN",
+      "Prisma",
+      "NeonDB",
+    ],
     github: "https://github.com/27-Parth/pro-file",
-    demo: "https://pro-file-sigma.vercel.app"
+    demo: "https://pro-file-sigma.vercel.app",
   },
-{
-  id: 2,
-  title: "Webber.ai",
-  image: webber,
-  description: "A tool for generating websites quickly by leveraging Stackblitz containers, allowing users to build sites in minutes directly in the browser.",
-  tags: ["Node.js", "React.js", "JavaScript", "Stackblitz"],
-  github: "https://github.com/27-Parth/webber",
-}
+  {
+    id: 2,
+    title: "Webber.ai",
+    image: webber,
+    description:
+      "A tool for generating websites quickly by leveraging Stackblitz containers, allowing users to build sites in minutes directly in the browser.",
+    tags: ["Node.js", "React.js", "JavaScript", "Stackblitz"],
+    github: "https://github.com/27-Parth/webber",
+  },
 ];
-
 
 export const ABOUT_ME_DATA = {
   introduction:
-    "Hi, I'm Parth, an aspiring developer and passionate problem solver who loves and strives to solve real world problems.",
+    "Hi, I'm Sumit Jha, an aspiring developer and passionate problem solver who loves and strives to solve real world problems.",
   background:
-    "I am currently pursing my Bachelor's degree in Computer Science and Engineering from the Motilal Nehru National Institute of Technology. Throughout my college life, I've developed a passion for web technologies and frameworks.",
+    "I am currently pursing my Bachelor's degree from Motilal Nehru National Institute of Technology, Allahabad. Throughout my college life, I've developed a passion for web technologies and frameworks.",
   skills:
-    "I'm proficient in a variety of technologies including Java, React.js, JavaScript, Linux, Shell Scripts and Node.js. I enjoy solving real issues and creating impactful applications using modern development practices.",
+    "I'm proficient in a variety of technologies including C++, React.js, JavaScript, Git/Github, Next.js and Node.js. I enjoy solving real issues and creating impactful applications using modern development practices.",
   projects:
-    "Some of my notable projects include a Career Coach website built which helps the user to get Realtime Industry and Job insights, Webber.ai which leverages Ai for building websites in minutes, and various mini projects & extensions.",
+    "Some of my notable projects include a Acloud-based platform to perform subject-focused cropping and video compression, DevConnect which is a fully functional Q&A platform inspired by Stack Overflow and  SmartDesk AI, A full-stack AI agent that automatically categorizes, prioritizes, and assigns support tickets",
   interests:
     "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing strategy-based video games.",
   careerGoals:
     "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to impactful projects.",
   stats: {
-    Experience: "2 months",
-    numberOfProjects: 5,
-    certificationsEarned: 3,
+    Experience: "Fresher",
+    numberOfProjects: 3,
+    certificationsEarned: 1,
   },
 };
