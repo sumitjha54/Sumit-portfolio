@@ -2,7 +2,7 @@ import React from "react";
 import { PROFILE_DATA } from "../utils/data";
 
 import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
-import { FaBriefcase, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaBriefcase, FaGithub, FaLinkedinIn, FaFileAlt } from "react-icons/fa";
 import { RxTwitterLogo } from "react-icons/rx";
 
 const Hero = () => {
@@ -128,10 +128,10 @@ const Hero = () => {
                 <FaLinkedinIn size={18} />
               </a>
               <a
-                href="https://www.linkedin.com/in/sumitjha50/"
+                href="https://drive.google.com/file/d/1xJwHr__M5mrVL8kD6_u3OldfeHDHQ6kj/view?usp=sharing"
                 className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-slate-100 hover:bg-slate-800 hover:text-sky-400 transition"
               >
-                <RxTwitterLogo size={18} />
+                <FaFileAlt size={18} />
               </a>
             </div>
           </div>

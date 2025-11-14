@@ -1,5 +1,6 @@
 import PROFILE_PIC from "../assets/PROFILE_PIC.jpg";
 import profile from "../assets/profile.png";
+import devconnect from "../assets/devconnect.png";
 import webber from "../assets/webber.png";
 import {
   FaJava,
@@ -192,7 +193,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "DevConnect",
-    image: webber,
+    image: devconnect,
     description:
       "Q&A platform inspired by Stack Overflow with auth, voting, markdown support, search and theming built with Next.js and Appwrite.",
     tags: ["Next.js", "Appwrite", "Tailwind CSS"],
