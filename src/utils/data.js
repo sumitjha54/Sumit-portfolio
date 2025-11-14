@@ -1,4 +1,4 @@
-import PROFILE_PIC from "../assets/PROFILE_PIC.jpeg";
+import PROFILE_PIC from "../assets/PROFILE_PIC.jpg";
 import profile from "../assets/profile.png";
 import webber from "../assets/webber.png";
 import {
@@ -181,30 +181,33 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "Pro-File",
+    title: "SmartDesk AI",
     image: profile,
     description:
-      "A AI career sensai, which uses real world and current insights to help people find a job.",
-    tags: [
-      "React",
-      "Node.js",
-      "Vite",
-      "Gemini API",
-      "ShadCN",
-      "Prisma",
-      "NeonDB",
-    ],
-    github: "https://github.com/27-Parth/pro-file",
-    demo: "https://pro-file-sigma.vercel.app",
+      "Full-stack AI ticketing agent that auto-categorizes, prioritizes and assigns support tickets using Google Gemini API and Inngest.",
+    tags: ["Node.js", "Express", "MongoDB", "Gemini API", "Inngest", "JWT"],
+    github: "https://github.com/sumitjha54/AI-ticket-system",
+    demo: "",
   },
   {
     id: 2,
-    title: "Webber.ai",
+    title: "DevConnect",
     image: webber,
     description:
-      "A tool for generating websites quickly by leveraging Stackblitz containers, allowing users to build sites in minutes directly in the browser.",
-    tags: ["Node.js", "React.js", "JavaScript", "Stackblitz"],
-    github: "https://github.com/27-Parth/webber",
+      "Q&A platform inspired by Stack Overflow with auth, voting, markdown support, search and theming built with Next.js and Appwrite.",
+    tags: ["Next.js", "Appwrite", "Tailwind CSS"],
+    github: "https://github.com/sumitjha54/Stack-Overflow",
+    demo: "",
+  },
+  {
+    id: 3,
+    title: "ClipIQ",
+    image: webber,
+    description:
+      "Cloud-based subject-focused video cropping & compression using Cloudinary AI APIs; focused on UI polish and video processing pipelines.",
+    tags: ["Next.js", "Prisma", "NeonDB", "Cloudinary"],
+    github: "https://github.com/sumitjha54/ClipIQ---AI-powered-SAAS",
+    demo: "",
   },
 ];
 
